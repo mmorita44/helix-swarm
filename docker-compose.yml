@@ -1,7 +1,7 @@
 version: '2'
 services:
   helix-swarm:
-    build: mmorita44/helix-swarm:latest
+    image: mmorita44/helix-swarm:latest
     ports:
       - 80:80
       - 443:443
