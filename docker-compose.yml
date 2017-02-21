@@ -1,0 +1,13 @@
+version: '2'
+services:
+  helix-swarm:
+    build: mmorita44/helix-swarm:latest
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - data-helix-swarm:/opt/perforce/swarm/data
+
+volumes:
+  data-helix-swarm:
+    driver: local
