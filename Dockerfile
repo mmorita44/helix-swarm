@@ -1,7 +1,7 @@
 FROM ubuntu:trusty
 MAINTAINER Masato Morita <m.morita44@hotmail.com>
 
-ENV HELIX_VERSION 2016.3-1472982~trusty
+ENV HELIX_VERSION 2017.1-1517929~trusty
 
 ADD https://package.perforce.com/perforce.pubkey /tmp/perforce.pubkey
 
