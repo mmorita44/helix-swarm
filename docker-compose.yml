@@ -1,6 +1,7 @@
 version: '2'
 services:
   helix-swarm:
+    build: .
     image: mmorita44/helix-swarm:latest
     ports:
       - 80:80
